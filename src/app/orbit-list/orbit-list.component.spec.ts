@@ -1,16 +1,15 @@
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { async, ComponentFixture, TestBed } from "@angular/core/testing";
 
-import { OrbitListComponent } from './orbit-list.component';
+import { OrbitListComponent } from "./orbit-list.component";
 
-describe('OrbitListComponent', () => {
+describe("OrbitListComponent", () => {
   let component: OrbitListComponent;
   let fixture: ComponentFixture<OrbitListComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ OrbitListComponent ]
-    })
-    .compileComponents();
+      declarations: [OrbitListComponent]
+    }).compileComponents();
   }));
 
   beforeEach(() => {
@@ -19,7 +18,7 @@ describe('OrbitListComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it("should create", () => {
     expect(component).toBeTruthy();
   });
 });
